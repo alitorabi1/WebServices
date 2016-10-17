@@ -1,0 +1,6 @@
+https://en.wikipedia.org/wiki/XML-RPC
+http://www.jsonrpc.org/specification
+https://documentation.pingidentity.com/display/PF70/SOAP+Request+and+Response+Example
+http://www.w3schools.com/xml/xml_wsdl.asp
+https://ws.apache.org/xmlrpc/server.html
+https://www.youtube.com/watch?v=jI6MZ13oTPY
