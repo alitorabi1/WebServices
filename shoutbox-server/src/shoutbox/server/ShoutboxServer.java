@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package rpcone.server;
+package shoutbox.server;
 
 import org.apache.xmlrpc.server.PropertyHandlerMapping;
 import org.apache.xmlrpc.server.XmlRpcServer;
@@ -14,9 +14,9 @@ import org.apache.xmlrpc.webserver.WebServer;
  *
  * @author ipd
  */
-public class RpconeServer {
+public class ShoutboxServer {
 
-    private static final int port = 8080;
+    private static final int port = 8181;
 
     public static void main(String[] args) throws Exception {
         // Create web server and XML-RPC server connected to it
@@ -25,21 +25,7 @@ public class RpconeServer {
 
         // tell XML-RPC server which classes contain methods to map
         PropertyHandlerMapping phm = new PropertyHandlerMapping();
-        /* Load handler definitions from a property file.
-           * The property file might look like:
-           *   Calculator=org.apache.xmlrpc.demo.Calculator
-           *   org.apache.xmlrpc.demo.proxy.Adder=org.apache.xmlrpc.demo.proxy.AdderImpl
-         */
-        /*phm.load(Thread.currentThread().getContextClassLoader(),
-                "MyHandlers.properties");*/
-
-        /* You may also provide the handler classes directly,
-           * like this:
-           * phm.addHandler(org.apache.xmlrpc.demo.proxy.Adder.class.getName(),
-           *     org.apache.xmlrpc.demo.proxy.AdderImpl.class);
-         */
-        phm.addHandler("Calculator", rpcone.server.Calculator.class);
-        phm.addHandler("Echo", rpcone.server.Echo.class);
+        phm.addHandler("Shoutbox", ShoutboxService.class);
         xmlRpcServer.setHandlerMapping(phm);
 
         // Set some additional options
@@ -51,4 +37,5 @@ public class RpconeServer {
         // start web server and don't stop
         webServer.start();
     }
+    
 }
