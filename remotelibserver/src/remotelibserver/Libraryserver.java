@@ -16,7 +16,7 @@ public class Libraryserver {
 
         // tell XML-RPC server which classes contain methods to map
         PropertyHandlerMapping phm = new PropertyHandlerMapping();
-        phm.addHandler("Library", LibraryService.class);
+        phm.addHandler("Library", remotelibserver.LibraryService.class);
         xmlRpcServer.setHandlerMapping(phm);
 
         // Set some additional options

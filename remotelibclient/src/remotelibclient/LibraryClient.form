@@ -26,7 +26,6 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="jScrollPane1" max="32767" attributes="0"/>
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Component id="jLabel2" pref="51" max="32767" attributes="0"/>
@@ -35,21 +34,19 @@
                       <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                       <Component id="tfFilter" min="-2" pref="160" max="-2" attributes="0"/>
                   </Group>
+                  <Component id="jScrollPane2" max="32767" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                              <Component id="jLabel3" min="-2" pref="68" max="-2" attributes="0"/>
-                          </Group>
                           <Component id="jLabel4" max="32767" attributes="0"/>
                           <Component id="jLabel5" max="32767" attributes="0"/>
+                          <Component id="jLabel3" alignment="1" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="jTextField1" pref="117" max="32767" attributes="0"/>
+                          <Component id="tfYop" pref="117" max="32767" attributes="0"/>
                           <Component id="tfAuthor" max="32767" attributes="0"/>
                           <Component id="tfTitle" max="32767" attributes="0"/>
                       </Group>
@@ -69,7 +66,7 @@
               <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel1" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
-                  <Component id="tfFilter" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfFilter" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -82,12 +79,12 @@
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Component id="jLabel4" min="-2" pref="22" max="-2" attributes="0"/>
-                          <Component id="tfAuthor" min="-2" pref="22" max="-2" attributes="0"/>
+                          <Component id="tfAuthor" min="-2" pref="24" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel5" alignment="3" max="32767" attributes="0"/>
-                          <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfYop" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                       <Component id="jButton1" min="-2" max="-2" attributes="0"/>
@@ -95,7 +92,7 @@
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
-                      <Component id="jScrollPane1" min="-2" pref="291" max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="294" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -110,37 +107,15 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="tfFilter">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tfFilterKeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="text" type="java.lang.String" value="Book list"/>
       </Properties>
     </Component>
-    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
-      <AuxValues>
-        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-      </AuxValues>
-
-      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-      <SubComponents>
-        <Component class="javax.swing.JList" name="jlBookList">
-          <Properties>
-            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
-              <StringArray count="5">
-                <StringItem index="0" value="Item 1"/>
-                <StringItem index="1" value="Item 2"/>
-                <StringItem index="2" value="Item 3"/>
-                <StringItem index="3" value="Item 4"/>
-                <StringItem index="4" value="Item 5"/>
-              </StringArray>
-            </Property>
-          </Properties>
-          <AuxValues>
-            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
-          </AuxValues>
-        </Component>
-      </SubComponents>
-    </Container>
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
         <Property name="text" type="java.lang.String" value="Title:"/>
@@ -160,7 +135,7 @@
         <Property name="text" type="java.lang.String" value="Year of publish:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField1">
+    <Component class="javax.swing.JTextField" name="tfYop">
     </Component>
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>
@@ -170,5 +145,20 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
       </Events>
     </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="taBookList">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
   </SubComponents>
 </Form>

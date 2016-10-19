@@ -1,5 +1,6 @@
 package remotelibserver;
 
+import com.sun.org.apache.xml.internal.dtm.Axis;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -9,7 +10,7 @@ import java.util.Scanner;
 
 public class LibraryService implements LibraryInt {
 
-private static final String FILE_NAME = "data.txt";
+    private static final String FILE_NAME = "data.txt";
 
     @Override
     public int addBook(String title, String author, int yop) throws IOException {
@@ -38,8 +39,28 @@ private static final String FILE_NAME = "data.txt";
 
     @Override
     public String getFilteredBooks(String keyword) throws IOException {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        try {
+            Scanner scanner = new Scanner(new File(FILE_NAME));
+            String line = scanner.useDelimiter("\u001A").next();
+            if (keyword.equals("")) {
+                return line;
+            } else {
+//            if (!keyword.equals("")) {
+                while (scanner.hasNextLine()) {
+                    final String lineFromFile = scanner.nextLine();
+                    if (lineFromFile.contains(keyword)) {
+                        // a match!
+                        line = lineFromFile;
+                    }
+                }
+            }
+//            } else {
+            return line;
+//            }
+        } catch (IOException e) {
+            e.printStackTrace();
+            throw e;
+        }
     }
-
 
 }

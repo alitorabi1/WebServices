@@ -11,7 +11,7 @@ import remotelibserver.LibraryInt;
 public class LibraryProxy implements LibraryInt {
 
     private XmlRpcClient rpc;
-    public static final String SERVER_ENDPOINT = "http://127.0.0.1:8282/XmlRpcServlet";
+    public static final String SERVER_ENDPOINT = "http://127.0.0.1:8181/XmlRpcServlet";
 
     LibraryProxy() throws MalformedURLException {
         XmlRpcClientConfigImpl config = new XmlRpcClientConfigImpl();
@@ -43,7 +43,12 @@ public class LibraryProxy implements LibraryInt {
 
     @Override
     public String getFilteredBooks(String keyword) throws IOException {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        try {
+            Object[] params3 = new Object[]{keyword};
+            return (String) rpc.execute("Library.getFilteredBooks", params3);
+        } catch (XmlRpcException ex) {
+            throw new IOException(ex);
+        }
     }
 
     
