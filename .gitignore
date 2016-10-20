@@ -15,3 +15,15 @@
 /shoutbox-server/dist/
 /remotelibserver/dist/
 /remotelibclient/dist/
+/remotelib_server/build/
+/remotelib_server/dist/
+/remotelib_server/nbproject/private/
+/Remotelib-client/nbproject/private/
+/Remotelib-server/nbproject/private/
+/Remotelib-server/build/
+/Remotelib-client/build/
+/Remotelib-server/dist/
+/Quiz1People-client/build/
+/Quiz1People-client/nbproject/private/
+/Quiz1People-server/build/
+/Quiz1People-server/nbproject/private/
