@@ -15,7 +15,22 @@
 /shoutbox-server/dist/
 /remotelibserver/dist/
 /remotelibclient/dist/
+<<<<<<< HEAD
 /quiz1people-client/nbproject/private/
 /quiz1people-server/nbproject/private/
 /quiz1people-server/build/
 /quiz1people-client/build/
+=======
+/remotelib_server/build/
+/remotelib_server/dist/
+/remotelib_server/nbproject/private/
+/Remotelib-client/nbproject/private/
+/Remotelib-server/nbproject/private/
+/Remotelib-server/build/
+/Remotelib-client/build/
+/Remotelib-server/dist/
+/Quiz1People-client/build/
+/Quiz1People-client/nbproject/private/
+/Quiz1People-server/build/
+/Quiz1People-server/nbproject/private/
+>>>>>>> ebd78e56858429717a6c920025bd3d2515e95689
