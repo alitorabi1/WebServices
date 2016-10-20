@@ -1,0 +1,6 @@
+C:\Users\ipd\Documents\WebServices\MathServiceClient\MathServiceClient\bin\Debug\MathServiceClient.exe.config
+C:\Users\ipd\Documents\WebServices\MathServiceClient\MathServiceClient\bin\Debug\MathServiceClient.exe
+C:\Users\ipd\Documents\WebServices\MathServiceClient\MathServiceClient\bin\Debug\MathServiceClient.pdb
+C:\Users\ipd\Documents\WebServices\MathServiceClient\MathServiceClient\obj\Debug\MathServiceClient.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\WebServices\MathServiceClient\MathServiceClient\obj\Debug\MathServiceClient.exe
+C:\Users\ipd\Documents\WebServices\MathServiceClient\MathServiceClient\obj\Debug\MathServiceClient.pdb

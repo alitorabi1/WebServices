@@ -1,0 +1,18 @@
+﻿<Window x:Class="SOAPLibClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="597">
+    <Grid>
+        <Label Content="Filter:" HorizontalAlignment="Left" Margin="25,24,0,0" VerticalAlignment="Top" Width="91"/>
+        <TextBox x:Name="tbFilter" HorizontalAlignment="Left" Height="23" Margin="116,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144"/>
+        <Label Content="Title:" HorizontalAlignment="Left" Margin="305,62,0,0" VerticalAlignment="Top" Width="86"/>
+        <Label Content="Author:" HorizontalAlignment="Left" Margin="305,106,0,0" VerticalAlignment="Top" Width="86"/>
+        <Label Content="Year of pub:" HorizontalAlignment="Left" Margin="305,153,0,0" VerticalAlignment="Top" Width="86"/>
+        <TextBox x:Name="tbTitle" HorizontalAlignment="Left" Height="23" Margin="422,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbAuthor" HorizontalAlignment="Left" Height="23" Margin="422,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbYop" HorizontalAlignment="Left" Height="23" Margin="422,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btAddBook" Content="Add Book" HorizontalAlignment="Left" Margin="422,217,0,0" VerticalAlignment="Top" Width="120" Click="btAddBook_Click"/>
+        <ListBox x:Name="lstListBook" HorizontalAlignment="Left" Height="222" Margin="25,72,0,0" VerticalAlignment="Top" Width="235"/>
+
+    </Grid>
+</Window>

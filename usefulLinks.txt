@@ -4,3 +4,9 @@ https://documentation.pingidentity.com/display/PF70/SOAP+Request+and+Response+Ex
 http://www.w3schools.com/xml/xml_wsdl.asp
 https://ws.apache.org/xmlrpc/server.html
 https://www.youtube.com/watch?v=jI6MZ13oTPY
+
+
+
+http://xml-rpc.net/faq/xmlrpcnetfaq-2-5-0.html#2.1
+https://www.google.ca/imgres?imgurl=http://d.gr-assets.com/books/1388176110l/81940.jpg&imgrefurl=http://www.goodreads.com/book/show/81940.Mastery&h=460&w=318&tbnid=moxOedzV5hLvMM:&tbnh=160&tbnw=110&docid=52WVMmRqO7csiM&itg=1&usg=__aPnJK_kWCkbCdGQ9RVBLCQd1TLA=&sa=X&ved=0ahUKEwjN9N_q0-nPAhUJxoMKHaJICccQ_B0IfTAK
+https://support.microsoft.com/en-ca/kb/308359

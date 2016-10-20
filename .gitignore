@@ -15,3 +15,7 @@
 /shoutbox-server/dist/
 /remotelibserver/dist/
 /remotelibclient/dist/
+/quiz1people-client/nbproject/private/
+/quiz1people-server/nbproject/private/
+/quiz1people-server/build/
+/quiz1people-client/build/

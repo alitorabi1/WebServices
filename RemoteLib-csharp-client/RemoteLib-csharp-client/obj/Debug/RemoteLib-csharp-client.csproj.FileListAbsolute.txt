@@ -1,0 +1,14 @@
+C:\Users\ipd\Documents\WebServices\RemoteLib-csharp-client\RemoteLib-csharp-client\bin\Debug\RemoteLib-csharp-client.exe.config
+C:\Users\ipd\Documents\WebServices\RemoteLib-csharp-client\RemoteLib-csharp-client\bin\Debug\RemoteLib-csharp-client.exe
+C:\Users\ipd\Documents\WebServices\RemoteLib-csharp-client\RemoteLib-csharp-client\bin\Debug\RemoteLib-csharp-client.pdb
+C:\Users\ipd\Documents\WebServices\RemoteLib-csharp-client\RemoteLib-csharp-client\bin\Debug\CookComputing.XmlRpcV2.dll
+C:\Users\ipd\Documents\WebServices\RemoteLib-csharp-client\RemoteLib-csharp-client\obj\Debug\RemoteLib-csharp-client.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\WebServices\RemoteLib-csharp-client\RemoteLib-csharp-client\obj\Debug\MainWindow.baml
+C:\Users\ipd\Documents\WebServices\RemoteLib-csharp-client\RemoteLib-csharp-client\obj\Debug\MainWindow.g.cs
+C:\Users\ipd\Documents\WebServices\RemoteLib-csharp-client\RemoteLib-csharp-client\obj\Debug\App.g.cs
+C:\Users\ipd\Documents\WebServices\RemoteLib-csharp-client\RemoteLib-csharp-client\obj\Debug\RemoteLib-csharp-client_MarkupCompile.cache
+C:\Users\ipd\Documents\WebServices\RemoteLib-csharp-client\RemoteLib-csharp-client\obj\Debug\RemoteLib-csharp-client.g.resources
+C:\Users\ipd\Documents\WebServices\RemoteLib-csharp-client\RemoteLib-csharp-client\obj\Debug\RemoteLib_csharp_client.Properties.Resources.resources
+C:\Users\ipd\Documents\WebServices\RemoteLib-csharp-client\RemoteLib-csharp-client\obj\Debug\RemoteLib-csharp-client.csproj.GenerateResource.Cache
+C:\Users\ipd\Documents\WebServices\RemoteLib-csharp-client\RemoteLib-csharp-client\obj\Debug\RemoteLib-csharp-client.exe
+C:\Users\ipd\Documents\WebServices\RemoteLib-csharp-client\RemoteLib-csharp-client\obj\Debug\RemoteLib-csharp-client.pdb

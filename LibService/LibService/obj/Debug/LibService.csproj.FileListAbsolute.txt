@@ -1,0 +1,6 @@
+C:\Users\ipd\Documents\WebServices\LibService\LibService\bin\LibService.dll.config
+C:\Users\ipd\Documents\WebServices\LibService\LibService\bin\LibService.dll
+C:\Users\ipd\Documents\WebServices\LibService\LibService\bin\LibService.pdb
+C:\Users\ipd\Documents\WebServices\LibService\LibService\obj\Debug\LibService.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\WebServices\LibService\LibService\obj\Debug\LibService.dll
+C:\Users\ipd\Documents\WebServices\LibService\LibService\obj\Debug\LibService.pdb

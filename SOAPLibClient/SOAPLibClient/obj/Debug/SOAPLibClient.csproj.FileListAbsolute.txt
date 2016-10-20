@@ -1,0 +1,13 @@
+C:\Users\ipd\Documents\WebServices\SOAPLibClient\SOAPLibClient\bin\Debug\SOAPLibClient.exe.config
+C:\Users\ipd\Documents\WebServices\SOAPLibClient\SOAPLibClient\bin\Debug\SOAPLibClient.exe
+C:\Users\ipd\Documents\WebServices\SOAPLibClient\SOAPLibClient\bin\Debug\SOAPLibClient.pdb
+C:\Users\ipd\Documents\WebServices\SOAPLibClient\SOAPLibClient\obj\Debug\MainWindow.baml
+C:\Users\ipd\Documents\WebServices\SOAPLibClient\SOAPLibClient\obj\Debug\MainWindow.g.cs
+C:\Users\ipd\Documents\WebServices\SOAPLibClient\SOAPLibClient\obj\Debug\App.g.cs
+C:\Users\ipd\Documents\WebServices\SOAPLibClient\SOAPLibClient\obj\Debug\SOAPLibClient_MarkupCompile.cache
+C:\Users\ipd\Documents\WebServices\SOAPLibClient\SOAPLibClient\obj\Debug\SOAPLibClient.g.resources
+C:\Users\ipd\Documents\WebServices\SOAPLibClient\SOAPLibClient\obj\Debug\SOAPLibClient.Properties.Resources.resources
+C:\Users\ipd\Documents\WebServices\SOAPLibClient\SOAPLibClient\obj\Debug\SOAPLibClient.csproj.GenerateResource.Cache
+C:\Users\ipd\Documents\WebServices\SOAPLibClient\SOAPLibClient\obj\Debug\SOAPLibClient.exe
+C:\Users\ipd\Documents\WebServices\SOAPLibClient\SOAPLibClient\obj\Debug\SOAPLibClient.pdb
+C:\Users\ipd\Documents\WebServices\SOAPLibClient\SOAPLibClient\obj\Debug\SOAPLibClient.csprojResolveAssemblyReference.cache
