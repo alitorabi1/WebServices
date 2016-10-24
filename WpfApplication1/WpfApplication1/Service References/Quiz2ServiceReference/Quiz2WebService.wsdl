@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="addPerson">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="age" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="height" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addPersonResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getPersons">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nameSearch" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="minAge" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="maxAge" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="minHeight" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="maxHeight" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getPersonsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getPersonsResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="addPersonSoapIn">
+    <wsdl:part name="parameters" element="tns:addPerson" />
+  </wsdl:message>
+  <wsdl:message name="addPersonSoapOut">
+    <wsdl:part name="parameters" element="tns:addPersonResponse" />
+  </wsdl:message>
+  <wsdl:message name="getPersonsSoapIn">
+    <wsdl:part name="parameters" element="tns:getPersons" />
+  </wsdl:message>
+  <wsdl:message name="getPersonsSoapOut">
+    <wsdl:part name="parameters" element="tns:getPersonsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Quiz2WebServiceSoap">
+    <wsdl:operation name="addPerson">
+      <wsdl:input message="tns:addPersonSoapIn" />
+      <wsdl:output message="tns:addPersonSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getPersons">
+      <wsdl:input message="tns:getPersonsSoapIn" />
+      <wsdl:output message="tns:getPersonsSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Quiz2WebServiceSoap" type="tns:Quiz2WebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="addPerson">
+      <soap:operation soapAction="http://tempuri.org/addPerson" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPersons">
+      <soap:operation soapAction="http://tempuri.org/getPersons" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Quiz2WebServiceSoap12" type="tns:Quiz2WebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="addPerson">
+      <soap12:operation soapAction="http://tempuri.org/addPerson" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPersons">
+      <soap12:operation soapAction="http://tempuri.org/getPersons" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Quiz2WebService">
+    <wsdl:port name="Quiz2WebServiceSoap" binding="tns:Quiz2WebServiceSoap">
+      <soap:address location="http://localhost:3304/Quiz2WebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Quiz2WebServiceSoap12" binding="tns:Quiz2WebServiceSoap12">
+      <soap12:address location="http://localhost:3304/Quiz2WebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

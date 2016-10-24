@@ -18,16 +18,24 @@ namespace LibService
     public class LibWebService : System.Web.Services.WebService
     {
 
+        static String FILE_Name = @"C:\\Users\\ipd\\Documents\\WebServices\\LibService\\data.txt";
+
         [WebMethod]
-        public int addBook(String title, String author, int yop)
+        public int AddBook(String title, String author, int yop)
         {
-            try (PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter(FILE_NAME, true)))) {
-                String book = String.format("%s;%s;%s", title, author, yop);
-                pw.println(book);
-                pw.close();
-            } catch (IOException e) {
-                e.printStackTrace();
+
+            try
+            {
+
+                string book = String.Format("{0};{1};{2}", title, author, yop);
+                // File.WriteAllText(FILE_Name, book);
+                File.AppendAllText(FILE_Name, book + Environment.NewLine);
+            }
+            catch (IOException e)
+            {
                 throw e;
+                // return -1;
+
             }
             return 0;
         }
@@ -39,7 +47,7 @@ namespace LibService
         
         List<String> list = new List<String>();
         string[] fileLines;
-        fileLines = File.ReadAllLines("C:\\Users\\ipd\\Documents\\WebServices\\LibService\\data.txt");
+        fileLines = File.ReadAllLines(FILE_Name);
         foreach (string line in fileLines)
         {
         if (line.ToLower().Contains(keyword.ToLower()))
