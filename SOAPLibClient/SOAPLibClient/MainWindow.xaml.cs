@@ -22,18 +22,31 @@ namespace SOAPLibClient
     {
         static LibServiceReference.LibWebServiceSoapClient proxy;
         List<string> list = new List<string>();
-        string filter = "";
         public MainWindow()
         {
             proxy = new LibServiceReference.LibWebServiceSoapClient();
             InitializeComponent();
-            list = proxy.GetFilterListOfStrings(filter);
+            list = proxy.GetFilterListOfStrings("");
             lstListBook.ItemsSource = list;
         }
 
         private void btAddBook_Click(object sender, RoutedEventArgs e)
         {
+            proxy = new LibServiceReference.LibWebServiceSoapClient();
+            InitializeComponent();
+            list = proxy.AddBook(tbTitle.Text, tbTitle.Text, int.Parse(tbYop.Text));
+            lstListBook.ItemsSource = list;
+        }
 
+        void refreshList(string keyword)
+        {
+            list = proxy.GetALLBooks(keyword);
+            lstListBook.ItemsSource = list;
+        }
+
+        private void tbFilter_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            refreshList(tbFilter.Text);
         }
     }
 }

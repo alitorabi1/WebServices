@@ -12,3 +12,6 @@ C:\Users\ipd\Documents\WebServices\RemoteLib-csharp-client\RemoteLib-csharp-clie
 C:\Users\ipd\Documents\WebServices\RemoteLib-csharp-client\RemoteLib-csharp-client\obj\Debug\RemoteLib-csharp-client.csproj.GenerateResource.Cache
 C:\Users\ipd\Documents\WebServices\RemoteLib-csharp-client\RemoteLib-csharp-client\obj\Debug\RemoteLib-csharp-client.exe
 C:\Users\ipd\Documents\WebServices\RemoteLib-csharp-client\RemoteLib-csharp-client\obj\Debug\RemoteLib-csharp-client.pdb
+C:\Users\lenovo\Documents\WebServices\RemoteLib-csharp-client\RemoteLib-csharp-client\bin\Debug\RemoteLib-csharp-client.exe.config
+C:\Users\lenovo\Documents\WebServices\RemoteLib-csharp-client\RemoteLib-csharp-client\obj\Debug\RemoteLib-csharp-client.exe
+C:\Users\lenovo\Documents\WebServices\RemoteLib-csharp-client\RemoteLib-csharp-client\obj\Debug\RemoteLib-csharp-client.pdb

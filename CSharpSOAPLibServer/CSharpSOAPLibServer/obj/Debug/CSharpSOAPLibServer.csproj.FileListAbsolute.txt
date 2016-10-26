@@ -1,0 +1,1 @@
+C:\Users\lenovo\Documents\WebServices\CSharpSOAPLibServer\CSharpSOAPLibServer\bin\Debug\CSharpSOAPLibServer.exe.config

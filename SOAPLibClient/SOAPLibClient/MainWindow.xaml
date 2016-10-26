@@ -4,7 +4,7 @@
         Title="MainWindow" Height="350" Width="597">
     <Grid>
         <Label Content="Filter:" HorizontalAlignment="Left" Margin="25,24,0,0" VerticalAlignment="Top" Width="91"/>
-        <TextBox x:Name="tbFilter" HorizontalAlignment="Left" Height="23" Margin="116,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144"/>
+        <TextBox x:Name="tbFilter" HorizontalAlignment="Left" Height="23" Margin="116,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" TextChanged="tbFilter_TextChanged"/>
         <Label Content="Title:" HorizontalAlignment="Left" Margin="305,62,0,0" VerticalAlignment="Top" Width="86"/>
         <Label Content="Author:" HorizontalAlignment="Left" Margin="305,106,0,0" VerticalAlignment="Top" Width="86"/>
         <Label Content="Year of pub:" HorizontalAlignment="Left" Margin="305,153,0,0" VerticalAlignment="Top" Width="86"/>

@@ -11,3 +11,6 @@ C:\Users\ipd\Documents\WebServices\SOAPLibClient\SOAPLibClient\obj\Debug\SOAPLib
 C:\Users\ipd\Documents\WebServices\SOAPLibClient\SOAPLibClient\obj\Debug\SOAPLibClient.exe
 C:\Users\ipd\Documents\WebServices\SOAPLibClient\SOAPLibClient\obj\Debug\SOAPLibClient.pdb
 C:\Users\ipd\Documents\WebServices\SOAPLibClient\SOAPLibClient\obj\Debug\SOAPLibClient.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\WebServices\SOAPLibClient\SOAPLibClient\bin\Debug\SOAPLibClient.exe.config
+C:\Users\lenovo\Documents\WebServices\SOAPLibClient\SOAPLibClient\obj\Debug\SOAPLibClient.exe
+C:\Users\lenovo\Documents\WebServices\SOAPLibClient\SOAPLibClient\obj\Debug\SOAPLibClient.pdb
