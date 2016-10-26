@@ -25,17 +25,34 @@ namespace RemoteLib_csharp_client
     }
     public partial class MainWindow : Window
     {
-        ILibrary proxy;
+        static LibraryServiceReference.LibWebServiceSoapClient proxy;
+        List<string> books;
         public MainWindow()
         {
+            proxy = new LibraryServiceReference.LibWebServiceSoapClient();
             InitializeComponent();
+            books = proxy.GetFilterListOfStrings("");
+            lstBookList.ItemsSource = books;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            proxy = XmlRpcProxyGen.Create<ILibrary>();
-            proxy.AddBook("CSharp", "C. csharp", 2001);
+            string title = tbTitle.Text;
+            string author = tbAuthor.Text;
+            int yop = int.Parse(tbYop.Text);
+            proxy.AddBook(title, author, yop);
+            refreshList("");
+        }
 
+        void refreshList(string keyword)
+        {
+            books = proxy.GetFilterListOfStrings(keyword);
+            lstBookList.ItemsSource = books;
+        }
+
+        private void tbFilter_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            refreshList(tbFilter.Text);
         }
     }
 }

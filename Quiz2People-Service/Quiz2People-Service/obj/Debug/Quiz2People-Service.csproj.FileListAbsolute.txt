@@ -1,0 +1,6 @@
+C:\Users\ipd\Documents\WebServices\Quiz2People-Service\Quiz2People-Service\obj\Debug\Quiz2People-Service.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\WebServices\Quiz2People-Service\Quiz2People-Service\bin\Quiz2People-Service.dll.config
+C:\Users\ipd\Documents\WebServices\Quiz2People-Service\Quiz2People-Service\bin\Quiz2People-Service.dll
+C:\Users\ipd\Documents\WebServices\Quiz2People-Service\Quiz2People-Service\bin\Quiz2People-Service.pdb
+C:\Users\ipd\Documents\WebServices\Quiz2People-Service\Quiz2People-Service\obj\Debug\Quiz2People-Service.dll
+C:\Users\ipd\Documents\WebServices\Quiz2People-Service\Quiz2People-Service\obj\Debug\Quiz2People-Service.pdb

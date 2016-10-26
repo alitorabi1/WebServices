@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="407" Width="525">
+    <Grid>
+        <ListBox x:Name="lstPersonList" HorizontalAlignment="Left" Height="153" Margin="10,20,0,0" VerticalAlignment="Top" Width="238"/>
+        <TextBox x:Name="tbName" HorizontalAlignment="Left" Height="23" Margin="377,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbAge" HorizontalAlignment="Left" Height="23" Margin="377,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbHeight" HorizontalAlignment="Left" Height="23" Margin="377,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="268,25,0,0" VerticalAlignment="Top" Width="86"/>
+        <Label Content="Age:" HorizontalAlignment="Left" Margin="268,63,0,0" VerticalAlignment="Top" Width="86"/>
+        <Label Content="Height" HorizontalAlignment="Left" Margin="268,102,0,0" VerticalAlignment="Top" Width="104"/>
+        <Button x:Name="btAddPerson" Content="Add Person" HorizontalAlignment="Left" Margin="377,151,0,0" VerticalAlignment="Top" Width="120" Click="btAddPerson_Click"/>
+        <Label Content="Age from:" HorizontalAlignment="Left" Margin="10,261,0,0" VerticalAlignment="Top" Width="77"/>
+        <Label Content="Name  contains:" HorizontalAlignment="Left" Margin="10,217,0,0" VerticalAlignment="Top" Width="124"/>
+        <Label Content="to:" HorizontalAlignment="Left" Margin="223,261,0,0" VerticalAlignment="Top"/>
+        <Label Content="Height from:" HorizontalAlignment="Left" Margin="10,310,0,0" VerticalAlignment="Top" Width="94"/>
+        <Label Content="to:" HorizontalAlignment="Left" Margin="223,310,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbNameContains" HorizontalAlignment="Left" Height="23" Margin="134,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"/>
+        <TextBox x:Name="tbAgeFrom" HorizontalAlignment="Left" Height="23" Margin="112,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"/>
+        <TextBox x:Name="tbHeightFrom" HorizontalAlignment="Left" Height="23" Margin="112,310,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"/>
+        <TextBox x:Name="tbAgeTo" HorizontalAlignment="Left" Height="23" Margin="286,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="68"/>
+        <TextBox x:Name="tbHeightTo" HorizontalAlignment="Left" Height="23" Margin="286,310,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="68"/>
+        <Button x:Name="btSearch" Content="Search" HorizontalAlignment="Left" Margin="377,265,0,0" VerticalAlignment="Top" Width="120" Click="btSearch_Click"/>
+
+    </Grid>
+</Window>

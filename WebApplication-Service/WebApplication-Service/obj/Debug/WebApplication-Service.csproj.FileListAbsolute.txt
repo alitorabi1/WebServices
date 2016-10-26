@@ -1,0 +1,6 @@
+C:\Users\ipd\Documents\WebServices\WebApplication-Service\WebApplication-Service\bin\WebApplication-Service.dll.config
+C:\Users\ipd\Documents\WebServices\WebApplication-Service\WebApplication-Service\bin\WebApplication-Service.dll
+C:\Users\ipd\Documents\WebServices\WebApplication-Service\WebApplication-Service\bin\WebApplication-Service.pdb
+C:\Users\ipd\Documents\WebServices\WebApplication-Service\WebApplication-Service\obj\Debug\WebApplication-Service.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\WebServices\WebApplication-Service\WebApplication-Service\obj\Debug\WebApplication-Service.dll
+C:\Users\ipd\Documents\WebServices\WebApplication-Service\WebApplication-Service\obj\Debug\WebApplication-Service.pdb
