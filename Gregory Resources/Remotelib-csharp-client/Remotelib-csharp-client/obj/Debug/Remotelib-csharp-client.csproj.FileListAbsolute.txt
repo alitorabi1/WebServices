@@ -1,0 +1,15 @@
+C:\Users\ipd\Documents\2016-ipd8-webservices\Remotelib-csharp-client\Remotelib-csharp-client\bin\Debug\Remotelib-csharp-client.exe.config
+C:\Users\ipd\Documents\2016-ipd8-webservices\Remotelib-csharp-client\Remotelib-csharp-client\obj\Debug\Remotelib-csharp-client.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\2016-ipd8-webservices\Remotelib-csharp-client\Remotelib-csharp-client\obj\Debug\MainWindow.g.cs
+C:\Users\ipd\Documents\2016-ipd8-webservices\Remotelib-csharp-client\Remotelib-csharp-client\obj\Debug\App.g.cs
+C:\Users\ipd\Documents\2016-ipd8-webservices\Remotelib-csharp-client\Remotelib-csharp-client\obj\Debug\Remotelib-csharp-client_MarkupCompile.cache
+C:\Users\ipd\Documents\2016-ipd8-webservices\Remotelib-csharp-client\Remotelib-csharp-client\obj\Debug\Remotelib-csharp-client_MarkupCompile.lref
+C:\Users\ipd\Documents\2016-ipd8-webservices\Remotelib-csharp-client\Remotelib-csharp-client\bin\Debug\Remotelib-csharp-client.exe
+C:\Users\ipd\Documents\2016-ipd8-webservices\Remotelib-csharp-client\Remotelib-csharp-client\bin\Debug\Remotelib-csharp-client.pdb
+C:\Users\ipd\Documents\2016-ipd8-webservices\Remotelib-csharp-client\Remotelib-csharp-client\bin\Debug\CookComputing.XmlRpcV2.dll
+C:\Users\ipd\Documents\2016-ipd8-webservices\Remotelib-csharp-client\Remotelib-csharp-client\obj\Debug\MainWindow.baml
+C:\Users\ipd\Documents\2016-ipd8-webservices\Remotelib-csharp-client\Remotelib-csharp-client\obj\Debug\Remotelib-csharp-client.g.resources
+C:\Users\ipd\Documents\2016-ipd8-webservices\Remotelib-csharp-client\Remotelib-csharp-client\obj\Debug\Remotelib_csharp_client.Properties.Resources.resources
+C:\Users\ipd\Documents\2016-ipd8-webservices\Remotelib-csharp-client\Remotelib-csharp-client\obj\Debug\Remotelib-csharp-client.csproj.GenerateResource.Cache
+C:\Users\ipd\Documents\2016-ipd8-webservices\Remotelib-csharp-client\Remotelib-csharp-client\obj\Debug\Remotelib-csharp-client.exe
+C:\Users\ipd\Documents\2016-ipd8-webservices\Remotelib-csharp-client\Remotelib-csharp-client\obj\Debug\Remotelib-csharp-client.pdb

@@ -1,0 +1,13 @@
+C:\Users\ipd\Documents\2016-ipd8-webservices\RemotelibClient\RemotelibClient\bin\Debug\RemotelibClient.exe.config
+C:\Users\ipd\Documents\2016-ipd8-webservices\RemotelibClient\RemotelibClient\bin\Debug\RemotelibClient.exe
+C:\Users\ipd\Documents\2016-ipd8-webservices\RemotelibClient\RemotelibClient\bin\Debug\RemotelibClient.pdb
+C:\Users\ipd\Documents\2016-ipd8-webservices\RemotelibClient\RemotelibClient\obj\Debug\RemotelibClient.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\2016-ipd8-webservices\RemotelibClient\RemotelibClient\obj\Debug\MainWindow.baml
+C:\Users\ipd\Documents\2016-ipd8-webservices\RemotelibClient\RemotelibClient\obj\Debug\MainWindow.g.cs
+C:\Users\ipd\Documents\2016-ipd8-webservices\RemotelibClient\RemotelibClient\obj\Debug\App.g.cs
+C:\Users\ipd\Documents\2016-ipd8-webservices\RemotelibClient\RemotelibClient\obj\Debug\RemotelibClient_MarkupCompile.cache
+C:\Users\ipd\Documents\2016-ipd8-webservices\RemotelibClient\RemotelibClient\obj\Debug\RemotelibClient.g.resources
+C:\Users\ipd\Documents\2016-ipd8-webservices\RemotelibClient\RemotelibClient\obj\Debug\RemotelibClient.Properties.Resources.resources
+C:\Users\ipd\Documents\2016-ipd8-webservices\RemotelibClient\RemotelibClient\obj\Debug\RemotelibClient.csproj.GenerateResource.Cache
+C:\Users\ipd\Documents\2016-ipd8-webservices\RemotelibClient\RemotelibClient\obj\Debug\RemotelibClient.exe
+C:\Users\ipd\Documents\2016-ipd8-webservices\RemotelibClient\RemotelibClient\obj\Debug\RemotelibClient.pdb

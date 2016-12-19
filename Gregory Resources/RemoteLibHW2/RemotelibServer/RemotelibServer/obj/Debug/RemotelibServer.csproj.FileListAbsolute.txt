@@ -1,0 +1,6 @@
+C:\Users\ipd\Documents\2016-ipd8-webservices\RemotelibServer\RemotelibServer\bin\RemotelibServer.dll.config
+C:\Users\ipd\Documents\2016-ipd8-webservices\RemotelibServer\RemotelibServer\bin\RemotelibServer.dll
+C:\Users\ipd\Documents\2016-ipd8-webservices\RemotelibServer\RemotelibServer\bin\RemotelibServer.pdb
+C:\Users\ipd\Documents\2016-ipd8-webservices\RemotelibServer\RemotelibServer\obj\Debug\RemotelibServer.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\2016-ipd8-webservices\RemotelibServer\RemotelibServer\obj\Debug\RemotelibServer.dll
+C:\Users\ipd\Documents\2016-ipd8-webservices\RemotelibServer\RemotelibServer\obj\Debug\RemotelibServer.pdb

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="AddBook">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="title" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="author" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="yop" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddBookResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetFilteredBooks">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="keyword" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFilteredBooksResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFilteredBooksResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AddBookSoapIn">
+    <wsdl:part name="parameters" element="tns:AddBook" />
+  </wsdl:message>
+  <wsdl:message name="AddBookSoapOut">
+    <wsdl:part name="parameters" element="tns:AddBookResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFilteredBooksSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFilteredBooks" />
+  </wsdl:message>
+  <wsdl:message name="GetFilteredBooksSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFilteredBooksResponse" />
+  </wsdl:message>
+  <wsdl:portType name="RemotelibServiceSoap">
+    <wsdl:operation name="AddBook">
+      <wsdl:input message="tns:AddBookSoapIn" />
+      <wsdl:output message="tns:AddBookSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFilteredBooks">
+      <wsdl:input message="tns:GetFilteredBooksSoapIn" />
+      <wsdl:output message="tns:GetFilteredBooksSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="RemotelibServiceSoap" type="tns:RemotelibServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddBook">
+      <soap:operation soapAction="http://tempuri.org/AddBook" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFilteredBooks">
+      <soap:operation soapAction="http://tempuri.org/GetFilteredBooks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RemotelibServiceSoap12" type="tns:RemotelibServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddBook">
+      <soap12:operation soapAction="http://tempuri.org/AddBook" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFilteredBooks">
+      <soap12:operation soapAction="http://tempuri.org/GetFilteredBooks" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RemotelibService">
+    <wsdl:port name="RemotelibServiceSoap" binding="tns:RemotelibServiceSoap">
+      <soap:address location="http://localhost:1265/RemotelibService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RemotelibServiceSoap12" binding="tns:RemotelibServiceSoap12">
+      <soap12:address location="http://localhost:1265/RemotelibService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
